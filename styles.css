@@ -127,6 +127,9 @@ nav li a:active{
 	margin: 30px auto;
 	font-weight: bold;	
 }
+.red{
+	color: red;
+}
 .column h2{
 	font-weight: bold;
 	font-size: 180%;
@@ -140,4 +143,31 @@ nav li a:active{
 }
 .gap{
 	padding: 20px;
+}
+#social{
+	background-color: red;
+	color: white;
+	padding: 25px 0;
+	overflow: hidden;
+	/*float: left;*/
+	width: 100%;
+	/*text-align: center;*/
+	/*position: relative;*/
+}
+#social ul{
+	clear: left; 
+	float: left;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+#social li{
+	display: block;
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+	margin: 0 20px;
 }
