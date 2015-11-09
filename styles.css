@@ -85,7 +85,7 @@ nav li a:active{
 	-ms-border-radius: 20px 40px;
 	-o-border-radius: 20px 40px;
 	border-radius: 20px 40px;
-	margin: 50px auto;
+	margin: 50px auto 30px;
 }
 #hero h2{
 	font-size: 200%;
@@ -94,10 +94,15 @@ nav li a:active{
 	letter-spacing: 1px;
 }
 #hero span{
+	color: red;
+	text-shadow: 1.2px 1.2px blue;
+	text-shadow: -1.2px -1.2px blue;
 	border: 2px solid white;
 	padding: 10px 20px;
 	display: inline-block;
 	margin-top: 10px;
-	font-size: 150%;
+	font-size: 200%;
 	font-weight: bold;
+	border-radius: 20px;
+	background-color: #33FFCC;
 }
