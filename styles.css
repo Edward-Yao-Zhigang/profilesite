@@ -19,7 +19,7 @@ nav{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: white;
+	background: rgba(210, 255, 244, 1);
 	border-bottom: 2px solid #ccc;
 	height: 70px;
 	width: 100%;
@@ -49,7 +49,7 @@ nav li a:link{
 }*/
 nav li a:hover{
 	color: rgb(160,0,0);
-	background:rgba(255,255,0,0.1);
+	background:rgba(20, 255, 196, 1);
 }
 nav li a:active{
 	color: #660099;
@@ -74,15 +74,28 @@ nav li a:active{
 	text-shadow:1.2px 1.2px yellow;
 }*/
 #hero{
-	/*background: url(images/london.jpg) no-repeat top left;*/
-	background-color: rgba(10, 132, 255,0.5);
-	background: linear-gradient(200deg, rgba(255, 102, 0, 0.4), rgba(255,0,0,0.8));
+	background: url(images/rendering-balls-circle-red-geometry-texture-background.jpg) no-repeat top left;
+	/*background-color: rgba(10, 132, 255,0.5);
+	background: linear-gradient(200deg, rgba(255, 102, 0, 0.4), rgba(255,0,0,0.8));*/
 	background-size: cover;
 	color: rgba(51, 255, 204, 1);
 	text-align: center;
-	height: 400px;
+	height: 500px;
 	padding: 30px 0;
+	opacity: 0.90;
+	position: relative;
+	z-index: -1;
 }
+/*#hero .background{
+	background: url(images/rendering-balls-circle-red-geometry-texture-background.jpg) no-repeat top left;
+	background-size: cover;
+	height: 400px;
+	-webkit-filter: blur(1px);
+  	-moz-filter: blur(1px);
+ 	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+ 	filter: blur(1px);
+}*/
 #hero img{
 	width: 150px;
 	height: 150px;
@@ -98,6 +111,7 @@ nav li a:active{
 	font-size: 200%;
 	margin: 0px 15%;
 	text-shadow: 0.6px 0.6px black;
+	padding: 10px 0 25px;
 	letter-spacing: 1px;
 }
 #hero span{
