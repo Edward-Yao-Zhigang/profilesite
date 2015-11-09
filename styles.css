@@ -1,0 +1,103 @@
+@font-face{
+	font-family: gotham;
+	src: url(ufonts.com_gotham-book.woff);
+}
+@font-face{
+	font-family: "gothamRounded";
+	src: url(Gotham_Rounded_Book.otf);
+}
+.container{
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+body{
+	padding-top: 70px;
+	font-family: 'gothamRounded', sans-serif;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: gba(250, 250, 250, 0.8);
+	border-bottom: 2px solid #ccc;
+	height: 70px;
+	width: 100%;
+}
+nav ul{
+	float: right;
+}
+
+nav li{
+	float: left;
+	width: auto;
+	/*list-style-type: none;*/
+}
+nav li a{
+	padding: 27px 10px;
+	display: block;
+	text-decoration: none;
+	color: rgb(255,0,0);
+}
+nav li a:link{
+	color: rgb(255,0,0);
+}
+/*nav li a:visited{
+	color: rgb(104,0,0);
+}*/
+nav li a:hover{
+	color: rgb(160,0,0);
+	background:rgba(255,255,0,0.1);
+}
+nav li a:active{
+	color: #660099;
+}
+#brand{
+	background: url(images/newPage.png) no-repeat top left;
+	background-size: cover;
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin: 5px;
+}
+#logoWord{
+	color: black;
+	font-size: 280%;
+	margin: 10px 0px auto 70px; 
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px red;
+	text-shadow: -0.5px -0.5px red;
+}
+#hero{
+	/*background: url(images/london.jpg) no-repeat top left;*/
+	background-color: rgba(10, 132, 255,0.5);
+	background-size: cover;
+	color: rgb(255,0,0);
+	text-align: center;
+	height: 400px;
+	padding: 25px 0;
+}
+#hero img{
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 20px 40px;
+	-webkit-border-radius: 20px 40px;
+	-ms-border-radius: 20px 40px;
+	-o-border-radius: 20px 40px;
+	border-radius: 20px 40px;
+	margin: 50px auto;
+}
+#hero h2{
+	font-size: 200%;
+	margin:0px 15%;
+	text-shadow: 0.6px 0.6px white;
+	letter-spacing: 1px;
+}
+#hero span{
+	border: 2px solid white;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 150%;
+	font-weight: bold;
+}
