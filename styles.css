@@ -19,7 +19,7 @@ nav{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: gba(250, 250, 250, 0.8);
+	background: white;
 	border-bottom: 2px solid #ccc;
 	height: 70px;
 	width: 100%;
@@ -89,7 +89,7 @@ nav li a:active{
 }
 #hero h2{
 	font-size: 200%;
-	margin:0px 15%;
+	margin: 0px 15%;
 	text-shadow: 0.6px 0.6px white;
 	letter-spacing: 1px;
 }
@@ -105,4 +105,39 @@ nav li a:active{
 	font-weight: bold;
 	border-radius: 20px;
 	background-color: #33FFCC;
+}
+#main-content{
+	text-align: center;
+	padding: 25px 0px;
+	overflow: hidden;
+}
+.column{
+	float: left;
+	width: 30%;
+	padding: 15px;
+}
+.column img{
+	width: 90%;
+	max-width: 90%;
+	border-radius: 25px;
+}
+.portfolioHeading{
+	text-align: center;
+	font-size: 230%;
+	margin: 30px auto;
+	font-weight: bold;	
+}
+.column h2{
+	font-weight: bold;
+	font-size: 180%;
+	color: red;
+	padding: 30px 0px;
+}
+.column .btn{
+	padding: 0px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+.gap{
+	padding: 20px;
 }
