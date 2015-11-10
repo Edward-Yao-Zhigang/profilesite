@@ -19,7 +19,8 @@ nav{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: rgba(210, 255, 244, 1);
+	/*background: rgba(210, 255, 244, 1);*/
+	background: linear-gradient(90deg, rgba(210, 255, 244, 1), rgba(20, 255, 196, 1),rgba(210, 255, 244, 1));
 	border-bottom: 2px solid #ccc;
 	height: 70px;
 	width: 100%;
@@ -55,12 +56,12 @@ nav li a:active{
 	color: #660099;
 }
 #brand{
-	background: url(images/newPage.png) no-repeat top left;
+	background: url(images/ziki-logo-square2-webtreatsetc.png) no-repeat top left;
 	background-size: cover;
-	height: 60px;
-	width: 60px;
+	height: 65px;
+	width: 65px;
 	float: left;
-	margin: 5px;
+	margin: 5px 0 0 5px;
 }
 #logoWord{
 	color: rgba(255,0,0,1);
@@ -69,10 +70,6 @@ nav li a:active{
 	font-weight: bold;
 	text-shadow: 1px 1px black;
 }
-/*#special{
-	color: blue;
-	text-shadow:1.2px 1.2px yellow;
-}*/
 #hero{
 	background: url(images/rendering-balls-circle-red-geometry-texture-background.jpg) no-repeat top left;
 	/*background-color: rgba(10, 132, 255,0.5);
@@ -86,16 +83,7 @@ nav li a:active{
 	position: relative;
 	z-index: -1;
 }
-/*#hero .background{
-	background: url(images/rendering-balls-circle-red-geometry-texture-background.jpg) no-repeat top left;
-	background-size: cover;
-	height: 400px;
-	-webkit-filter: blur(1px);
-  	-moz-filter: blur(1px);
- 	-o-filter: blur(1px);
-	-ms-filter: blur(1px);
- 	filter: blur(1px);
-}*/
+
 #hero img{
 	width: 150px;
 	height: 150px;
@@ -192,4 +180,36 @@ nav li a:active{
 }
 footer{
 	float: right;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.container{
+		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+	body{
+		padding-top: 40px;
+	}
+	#hero h2{
+	font-size: 100%;
+	margin: 0px 15%;
+	padding: 0 0 25px;
+	letter-spacing: 1px;
+	}
+	#hero span{
+	color: red;
+	text-shadow: 1.2px 1.2px black;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 100%;
+	font-weight: bold;
+	border-radius: 20px;
+	background-color: #33FFCC;
+	}
+	.column{
+		float: left;
+		width: 50%;
+		padding: 15px;
+	}
 }
